@@ -1,0 +1,15 @@
+.FooterMenu{
+   
+    z-index: 2;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    height: 30px;
+    align-items: center;
+    position: inherit;
+}
+
+.FooterMenu img {
+height: 25px;
+width: 25px;
+}
