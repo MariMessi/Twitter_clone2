@@ -1,0 +1,54 @@
+.SideTrends{
+    display: flex;
+    flex-direction: column;
+    display: none;
+    margin: 20px;
+    width: 40%;
+    
+}
+
+.SideTrends_up{
+    display: flex;
+    justify-content: space-around;
+    width: 80%;
+    align-self: center;
+}
+
+.cerca{
+    width: 90%;
+    border-radius: 24px;
+    height: 30px;
+    padding: 0 0 0 10px;
+    border: 0;
+    background-color: #eaeff1;
+    box-shadow:  0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 24px;
+    outline: none;    
+}
+.search{
+    padding: 8px 20px;
+    border: 0;
+    background-color: #01b5f1;
+    color: white;
+    border-radius: 24px;
+    box-shadow:  0 4px 8px rgba(0, 0, 0, 0.1);
+    cursor: pointer;
+}
+
+.SideTrends_down{
+    border-radius: 20px;
+    background-color: #eaeff1;
+    margin-top: 20px;
+    box-shadow:  0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.sideTrendsh2{
+    align-self: center;
+}
+
+
+@media screen and (min-width: 800px){
+    .SideTrends{
+        display: flex;
+    }
+}
